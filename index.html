@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Architecture Website</title>
+    <script defer src="./script.js"></script>
+    <script defer src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script defer src="./node_modules/tilt.js/src/tilt.jquery.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="spinner-container">
+        <div class="circles">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="barIcon">
+            <span> <i id="bar" class="fas fa-bars"></i></span>
+            <span><i id="close" class="fas fa-times"></i></span>
+        </div>
+        <header>
+            <div class="img-wrap">
+                <img src="./images/pexels-karl-solano-2883049.jpg" alt=""/>
+            </div>
+            <div class="banner">
+                <h1>Architecture & interior Design</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <button >Discover now</button>
+            
+            </div>
+        </header>
+        <section id="sideBar">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#" class="menu-link" data-content="Home">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link" data-content="About us">About us</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link" data-content="Team">Team</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link" data-content="Pricing">Pricing</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link" data-content="Contact">Contact</a>
+                </li>
+            </ul>
+            <div class="social-media">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+
+
+    <!--------------------------------About section------------------------------------------->
+
+        <section class="about-us">
+            <div class="section-header">
+                <h1 class="section-heading">About us</h1>
+                <hr/>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <div class="service-header">
+                    <i class="fas fa-pen-nib"></i>
+                    <h3>Interior</h3>
+                    </div>
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem doloribus saepe nobis? Mollitia facilis necessitatibus odio, 
+                        veritatis quibusdam id debitis ex dolores quam molestias atque!
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="service-header">
+                    <i class="fas fa-paint-roller"></i>
+                    <h3>Exterior</h3>
+                    </div>
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem doloribus saepe nobis? Mollitia facilis necessitatibus odio, 
+                        veritatis quibusdam id debitis ex dolores quam molestias atque!
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="service-header">
+                    <i class="fas fa-pencil-alt"></i>
+                    <h3>Design</h3>
+                    </div>
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem doloribus saepe nobis? Mollitia facilis necessitatibus odio, 
+                        veritatis quibusdam id debitis ex dolores quam molestias atque!
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="service-header">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Decoration</h3>
+                    </div>
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem doloribus saepe nobis? Mollitia facilis necessitatibus odio, 
+                        veritatis quibusdam id debitis ex dolores quam molestias atque!
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="service-header">
+                    <i class="fas fa-ruler-combined"></i>
+                    <h3>Planning</h3>
+                    </div>
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem doloribus saepe nobis? Mollitia facilis necessitatibus odio, 
+                        veritatis quibusdam id debitis ex dolores quam molestias atque!
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="service-header">
+                    <i class="fas fa-building"></i>
+                    <h3>Execution</h3>
+                    </div>
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem doloribus saepe nobis? Mollitia facilis necessitatibus odio, 
+                        veritatis quibusdam id debitis ex dolores quam molestias atque!
+                    </p>
+                </div>
+                <div class="about-us-image-wrapper">
+                    <img src="./images/big-house-10(1).png" alt="house">
+                </div>
+            </div>
+        </section>
+
+        <!--======================================================== Team ==========================================================-->
+        
+        <section class="team">
+            <div class="section-header">
+                <h1 class="section-heading">Our Team</h1>
+                <hr/>
+            </div>
+            <div class="cards-wrapper">
+                <div class="card" data-tilt>
+                    <div class="card-img-wrapper">
+                    <img src="./images/designer.jpg" alt="Designer"/>
+                    </div>   
+                    <div class="card-info">
+                        <h2>Vivek Kushwah</h2>
+                        <h3>Designer</h3>
+                        <p>Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. In, tempore.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="card" data-tilt>
+                    <div class="card-img-wrapper">
+                    <img src="./images/WhatsApp Image 2021-07-24 at 6.13.55 PM.jpeg" alt="Designer"/>
+                    </div>   
+                    <div class="card-info">
+                        <h2>Anjali Kushwah</h2>
+                        <h3>Architect</h3>
+                        <p>Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. In, tempore.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="card" data-tilt>
+                    <div class="card-img-wrapper">
+                    <img src="./images/IMG20200916123304.jpg" alt="Designer"/>
+                    </div>   
+                    <div class="card-info">
+                        <h2>Vishal Kushwah</h2>
+                        <h3>CEO</h3>
+                        <p>Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. In, tempore.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================================================Contact==============================================-->
+
+        <section class="contact">
+            <div class="contact-wrapper">
+                <div class="contact-left">
+
+                </div>
+                <div class="contact-right">
+                    <h1 class="contact-heading">Contact</h1>
+                    <form action="">
+                    <div class="input-group">
+                    <input type="text" class="field"/>
+                    <label  class="input-label">Full Name</label>  
+                    </div> 
+                    <div class="input-group">
+                        <input type="email" class="field"/>
+                        <label  class="input-label">Email</label>  
+                    </div> 
+                    <div class="input-group">
+                        <textarea  class="field"></textarea>
+                        <label  class="message">Message</label>  
+                    </div>
+                    <input type="submit" value="submit" class="submit-btn"/>    
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================Footer========================================== -->
+        
+        <section class="footer">
+            <div class="footer-content">
+                <p id="copy"></p>
+                <div class="social-link">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+        <a href="#" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+        </a> 
+    </div> 
+    
+    </body>
+</html>
